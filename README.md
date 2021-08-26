@@ -21,11 +21,6 @@ Get Storage Data
 string sString = storage.GetString("MyString"); // sString contains value "MySafeStringValue"
 ```
 
-API Version
-```csharp
-string version = storage.GetApiVersion(); // returns the version of my Api
-```
-
 Storage Data Commands
 ```csharp
 // Set Storage
@@ -42,3 +37,7 @@ storage.GetBool("myBool");
 storage.GetFloat("MyFloat");
 ```
 
+API Version
+```csharp
+string version = storage.GetApiVersion(); // returns the version of my Api
+```
