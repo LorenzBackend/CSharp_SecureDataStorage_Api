@@ -18,7 +18,7 @@ storage.SetString("MyString", "MySafeStringValue");
 
 Get Storage Data
 ```csharp
-string sString = storage.GetString("MyString"); // sString has the value "MySafeStringValue"
+string sString = storage.GetString("MyString"); // sString contains value "MySafeStringValue"
 ```
 
 Get Storage Data
