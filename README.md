@@ -30,14 +30,14 @@ Storage Data Commands
 ```csharp
 // Set Storage
 storage.SetInt("MyInt", 0);
-storage.SetFloat("MyInt", 0);
+storage.SetString("MyString", "blablabla");
 storage.SetBool("myBool", true);
 storage.SetFloat("MyFloat", 1.2f);
 
 
 //GetStorage
 storage.GetInt("MyInt");
-storage.GetFloat("MyInt");
+storage.GetString("MyString");
 storage.GetBool("myBool");
 storage.GetFloat("MyFloat");
 ```
