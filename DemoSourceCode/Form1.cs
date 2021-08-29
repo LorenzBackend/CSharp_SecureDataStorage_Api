@@ -20,7 +20,6 @@ namespace StorageSaveDemo
         StorageData storage = new StorageData("APP_NAME");
         private void button1_Click(object sender, EventArgs e)
         {
-            storage.SetString("username", textBox1.Text);
             float test = 2.5f;
             storage.SetFloat("test", test);
         }
